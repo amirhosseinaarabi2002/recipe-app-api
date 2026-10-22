@@ -124,7 +124,7 @@ class PrivateIngredientAPITests(TestCase):
         Ingredient.objects.create(user=self.user, name='Lentils')
         recipe1 = Recipe.objects.create(
             title='Eggs Benedict',
-            time_minutes=60,
+            time_minutes=40,
             price=Decimal('7.00'),
             user=self.user,
         )
